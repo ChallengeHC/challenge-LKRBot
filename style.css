@@ -44,7 +44,7 @@ nav div h1 {
     color: #363738;
 }
 
-nav ul{
+nav ul {
     display: flex;
     flex: 1;
     justify-content: end;
@@ -89,7 +89,7 @@ section {
 }
 
 .container-inicio-cima button {
-    padding: 1.3rem; 
+    padding: 1.3rem;
     border: none;
     border-radius: .5rem;
     margin-right: 1rem;
@@ -111,7 +111,8 @@ button:nth-of-type(2) {
     transition: ease .2s;
 }
 
-.container-inicio-baixo h2, .terceiro-container h2 {
+.container-inicio-baixo h2,
+.terceiro-container h2 {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 2rem;
@@ -161,7 +162,7 @@ button:nth-of-type(2) {
 .terceiro-container {
     width: 100%;
     margin-top: 5%;
-}   
+}
 
 .dentro-container {
     display: flex;
@@ -172,7 +173,8 @@ button:nth-of-type(2) {
     border-radius: 1rem;
 }
 
-.dentro-container-esquerda, .dentro-container-direita {
+.dentro-container-esquerda,
+.dentro-container-direita {
     width: 49%;
 }
 
@@ -225,3 +227,74 @@ button:nth-of-type(2) {
     transform: translateY(-5%);
 }
 
+.s-section h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 5% 0 0.3% 0;
+}
+
+.s-section p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.container-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    background: #fff;
+    border-radius: 1.2rem;
+    box-shadow: 0 .4rem 1rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding-bottom: 2rem;
+    position: relative;
+    width: 32%;
+}
+
+.card-header {
+    height: 6.5rem;
+    background: linear-gradient(to right, #0077c2, #00aaff);
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+}
+
+.card-avatar {
+    width: 8rem;
+    height: 8rem;
+    background: #ccc;
+    border-radius: 50%;
+    border: .3rem solid #fff;
+    position: absolute;
+    top: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card h3 {
+    margin-top: 6rem;
+    font-size: 1.8rem;
+}
+
+.role {
+    color: #0077c2;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-size: 1.4rem;
+    padding: 0 1rem;
+}
+
+.icons {
+    margin: 2rem 0;
+}
+
+.icons a {
+    margin: 0 .5rem;
+    display: inline-block;
+}
