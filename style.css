@@ -312,3 +312,8 @@ button:nth-of-type(2) {
     text-align: center;
     margin-bottom: 2rem;
 }
+
+.icone-github, .icone-linkedin, .icone-email {
+    width: 3rem;
+    height: 3rem;
+}
