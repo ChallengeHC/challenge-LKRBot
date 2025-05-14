@@ -225,6 +225,7 @@ button:nth-of-type(2) {
 
 .btn-experimentar-bot button:hover {
     transform: translateY(-5%);
+    transition: ease .5s;
 }
 
 .s-section h2 {
@@ -297,4 +298,17 @@ button:nth-of-type(2) {
 .icons a {
     margin: 0 .5rem;
     display: inline-block;
+}
+
+.nossa-missao {
+    background-color: #fff;
+    margin-top: 4rem;
+    border-radius: 1rem;
+    padding: 3rem;
+}
+
+.nossa-missao h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
 }
