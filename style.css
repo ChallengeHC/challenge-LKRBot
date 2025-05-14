@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #e2f1ff;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: .3rem solid #32325d40;
+    padding: 2.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5%;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-between;
+    width: 18%;
+}
+
+nav div h1 {
+    font-size: 2rem;
+    align-items: center;
+    display: flex;
+    color: #363738;
+}
+
+nav ul{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    list-style-type: none;
+}
+
+nav ul li a {
+    margin-left: 10rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #83878f;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: #363738;
+    border-bottom: .3rem solid #0da1e5;
+}
+
+section {
+    margin: 1% 6%;
+}
+
+.container-inicio-cima {
+    margin: 7.5% 0 6% 0;
+    border-radius: 1rem;
+    padding: 5rem 5rem 7rem 5rem;
+    background-color: #0da1e5;
+}
+
+.container-inicio-cima h2 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.container-inicio-cima p {
+    color: #fff;
+    font-size: 1.7rem;
+    margin: 2rem 0 2rem 0;
+    width: 60%;
+}
+
+.container-inicio-cima button {
+    padding: 1.3rem; 
+    border: none;
+    border-radius: .5rem;
+    margin-right: 1rem;
+    font-weight: 600;
+    border: .2rem solid #fff;
+}
+
+button:nth-of-type(1) {
+    color: #0da1e5;
+}
+
+button:nth-of-type(2) {
+    background-color: transparent;
+    color: #fff;
+}
+
+.container-inicio-cima button:hover {
+    transform: scale(1.05);
+    transition: ease .2s;
+}
+
+.container-inicio-baixo h2, .terceiro-container h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.container-caixinhas-problema {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icone-x {
+    background-color: rgb(255, 192, 192);
+}
+
+.icone-relogio {
+    background-color: rgb(255, 237, 202);
+}
+
+.icone-suporte {
+    background-color: rgb(216, 216, 255);
+}
+
+.container-caixinhas-problema div {
+    padding: 2rem;
+    width: 31%;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.container-caixinhas-problema div img {
+    border-radius: 50%;
+    padding: .5rem;
+}
+
+.container-caixinhas-problema div h3 {
+    margin: 1rem 0 1rem 0;
+    font-size: 2.2rem;
+    color: #494b4d;
+}
+
+.container-caixinhas-problema div p {
+    font-size: 1.5rem;
+    color: #83878f;
+}
+
+.terceiro-container {
+    width: 100%;
+    margin-top: 5%;
+}   
+
+.dentro-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.dentro-container-esquerda, .dentro-container-direita {
+    width: 49%;
+}
+
+.dentro-container-direita {
+    background-color: #f0f0f0;
+    border-radius: 1rem;
+    padding: 1rem 0 40rem;
+}
+
+.dentro-container-esquerda h3 {
+    font-size: 2rem;
+}
+
+.dentro-container-esquerda p {
+    font-size: 1.5rem;
+    color: #363738;
+    margin: 1rem 0;
+}
+
+.check-informacoes div {
+    display: flex;
+    align-items: center;
+}
+
+.check-informacoes div img {
+    width: 2rem;
+}
+
+.check-informacoes div p {
+    font-size: 1.3rem;
+    margin-left: .3rem;
+    color: #494b4d;
+}
+
+.btn-experimentar-bot {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center
+}
+
+.btn-experimentar-bot button {
+    padding: 1.5rem;
+    border: none;
+    background-color: #0da1e5;
+    color: #fff;
+    border-radius: 1rem;
+}
+
+.btn-experimentar-bot button:hover {
+    transform: translateY(-5%);
+}
+
