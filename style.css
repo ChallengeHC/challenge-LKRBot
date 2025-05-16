@@ -93,7 +93,7 @@ section {
     border: none;
     border-radius: .5rem;
     margin-right: 1rem;
-    font-weight: 600;
+    font-weight: bold;
     border: .2rem solid #fff;
 }
 
@@ -109,6 +109,7 @@ button:nth-of-type(2) {
 .container-inicio-cima button:hover {
     transform: scale(1.05);
     transition: ease .2s;
+    
 }
 
 .container-inicio-baixo h2,
@@ -308,9 +309,13 @@ button:nth-of-type(2) {
 }
 
 .nossa-missao h3 {
-    font-size: 2rem;
-    text-align: center;
+    font-size: 2.1rem;
     margin-bottom: 2rem;
+}
+
+.nossa-missao p {
+    text-align: start;
+    font-size: 1.6rem;
 }
 
 .icone-github, .icone-linkedin, .icone-email {
