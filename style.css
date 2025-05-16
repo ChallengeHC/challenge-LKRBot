@@ -280,22 +280,22 @@ button:nth-of-type(2) {
     font-size: 1.8rem;
 }
 
-.role {
+.subtitulo-card {
     color: #0077c2;
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
-.description {
+.descricao {
     font-size: 1.4rem;
     padding: 0 1rem;
 }
 
-.icons {
+.icones-card {
     margin: 2rem 0;
 }
 
-.icons a {
+.icones-card a {
     margin: 0 .5rem;
     display: inline-block;
 }
