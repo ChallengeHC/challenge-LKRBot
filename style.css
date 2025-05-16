@@ -230,13 +230,13 @@ button:nth-of-type(2) {
     transition: ease .5s;
 }
 
-.s-section h2 {
+.s-section h2, .t-section h2 {
     text-align: center;
     font-size: 3rem;
     margin: 5% 0 0.3% 0;
 }
 
-.s-section p {
+.s-section p, .subtitulo-t-section {
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: 3%;
@@ -328,4 +328,67 @@ button:nth-of-type(2) {
 .icone-github, .icone-linkedin, .icone-email {
     width: 3rem;
     height: 3rem;
+}
+
+.header-demo-bot {
+    background-color: #00aaff;
+    padding: 2rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.header-demo-bot h3, .header-demo-bot span {
+    color: #fff;
+}
+
+.header-demo-bot div {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-demo-bot img {
+    width: 3rem;
+}
+
+.header-demo-bot h3 {
+    font-size: 1.3rem;
+    margin: .65rem 0 .7rem .5rem
+}
+
+.header-demo-bot span {
+    font-size: 1.1rem;
+    margin-left: 3.5rem;
+}
+
+.msgs-demo-bot {
+    padding: 2.3rem;
+    overflow-y: auto;
+    height: 30rem;
+    background-color: #fff;
+    border: .1rem solid #b8b9b9;
+}
+
+.msgs-demo-bot div p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.p-msg-bot, .t-msg-bot, .quinta-msg-bot {
+    background-color: #00aaff;
+    padding: 1rem;
+    border-radius: 1rem 1rem 1rem .2rem;
+    width: 70%;
+}
+
+.s-msg-bot, .q-msg-bot {
+    background-color: #00000071;
+    padding: 1rem;
+    border-radius: 1rem 1rem .2rem 1rem;
+    margin: 3rem 0 3rem 15rem;
+    width: 70%;
+}
+
+.enviar-msg-demo-bot {
+    padding: 2rem;
+    border: .2rem solid rgba(0, 0, 0, 0.116);
 }
