@@ -312,7 +312,7 @@ button:nth-of-type(2) {
     background-color: #fff;
     margin-top: 4rem;
     border-radius: 1rem;
-    padding: 3rem;
+    padding: 3rem 3rem 1rem 3rem;
 }
 
 .nossa-missao h3 {
@@ -347,29 +347,30 @@ button:nth-of-type(2) {
 }
 
 .header-demo-bot img {
-    width: 3rem;
+    width: 4.5rem;
 }
 
 .header-demo-bot h3 {
-    font-size: 1.3rem;
-    margin: .65rem 0 .7rem .5rem
+    font-size: 1.7rem;
+    margin: 1rem 0 .7rem .5rem
 }
 
 .header-demo-bot span {
-    font-size: 1.1rem;
-    margin-left: 3.5rem;
+    font-size: 1.4rem;
+    margin-left: 5.1rem;
 }
 
 .msgs-demo-bot {
     padding: 2.3rem;
     overflow-y: auto;
-    height: 30rem;
+    overflow-x: hidden;
+    height: 38rem;
     background-color: #fff;
-    border: .1rem solid #b8b9b9;
+    border: .1rem solid #d1d1d1;
 }
 
 .msgs-demo-bot div p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #fff;
 }
 
@@ -384,11 +385,37 @@ button:nth-of-type(2) {
     background-color: #00000071;
     padding: 1rem;
     border-radius: 1rem 1rem .2rem 1rem;
-    margin: 3rem 0 3rem 15rem;
-    width: 70%;
+    margin: 3rem 0 3rem 52rem;
+    width: 60%;
 }
 
 .enviar-msg-demo-bot {
-    padding: 2rem;
-    border: .2rem solid rgba(0, 0, 0, 0.116);
+    padding: 1rem;
+    border: .1rem solid #d1d1d1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.escrever-msg {
+    border: 1px solid black;
+    background-color: #fff;
+    flex: 14;
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border: .1rem solid #d1d1d1;
+}
+
+.btn-enviar-msg {
+    background-color: #00aaff;
+    cursor: pointer;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: .62rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top: .1rem solid #d1d1d1;
+    border-bottom: .1rem solid #d1d1d1;
 }
