@@ -91,6 +91,10 @@ h2 {
     border: .1rem solid #d1d1d1;
 }
 
+.escrever-msg:focus {
+    outline: none;
+}
+
 .btn-enviar-msg {
     background-color: #00aaff;
     cursor: pointer;
