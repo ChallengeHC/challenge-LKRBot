@@ -523,3 +523,15 @@ textarea {
     font-size: 1.5rem;
     color: #494b4d;
 }
+
+footer {
+    padding: 3rem;
+    background-color: #004b7a;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+footer p {
+    color: #fff;
+    font-size: 1.7rem;
+}
