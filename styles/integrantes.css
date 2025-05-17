@@ -26,6 +26,11 @@ h2 {
     width: 32%;
 }
 
+.card:hover {
+    border: 1px solid rgb(169, 169, 169);
+    background-color: rgb(235, 235, 235);
+}
+
 .card-header {
     height: 6.5rem;
     background: linear-gradient(to right, #0077c2, #00aaff);
