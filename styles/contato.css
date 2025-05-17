@@ -1,0 +1,61 @@
+h2 {
+    margin-top: 11rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.quinta-section p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.contato {
+    display: flex;
+    padding: 1rem;
+}
+
+.area-entrar-contato {
+    flex: 1;
+    background-color: #bfeaff;
+    border-radius: .7rem;
+    padding: 2rem;
+}
+
+.area-entrar-contato h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.area-entrar-contato input,
+textarea {
+    border-radius: .5rem;
+    width: 100%;
+    border: 1px solid #afb1b4;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.area-entrar-contato button {
+    padding: .8rem;
+    width: 100%;
+    border-radius: .5rem;
+    border: 1px solid #b7b7b7;
+    background-color: #00aaff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+    height: 10rem;
+}
+
+.nome,
+.email,
+.assunto,
+.mensagem {
+    font-size: 1.5rem;
+    color: #494b4d;
+}

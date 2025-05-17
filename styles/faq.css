@@ -1,0 +1,56 @@
+h2 {
+    margin-top: 11rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.subtitulo-quinta-section {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.container-perguntas-frequentes {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perguntas-frequentes {
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    width: 80%;
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-ainda-duvidas {
+    padding: 2rem;
+    background-color: #bfeaff;
+    border-radius: 1rem;
+    width: 80%;
+}
+
+.container-ainda-duvidas h3 {
+    font-size: 1.7rem;
+}
+
+.container-ainda-duvidas p {
+    margin: 1.5rem 0;
+    font-size: 1.3rem;
+    text-align: start;
+}
+
+.container-ainda-duvidas button {
+    border: none;
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: .7rem;
+    background-color: #00aaff;
+    font-weight: bold;
+}
