@@ -25,6 +25,7 @@
     margin-right: 1rem;
     font-weight: bold;
     border: .2rem solid #fff;
+    cursor: pointer;
 }
 
 button:nth-of-type(1) {
@@ -158,4 +159,5 @@ button:nth-of-type(2) {
 .btn-experimentar-bot button:hover {
     transform: translateY(-5%);
     transition: ease .5s;
+    cursor: pointer;
 }
