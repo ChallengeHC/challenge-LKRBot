@@ -63,6 +63,12 @@ nav ul li a {
 li a:hover {
     color: #363738;
     border-bottom: .3rem solid #0da1e5;
+    transition: .08s ease;
+}
+
+.link-menu-ativado {
+    color: #363738;
+    border-bottom: .3rem solid #0da1e5;
 }
 
 section {
