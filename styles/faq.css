@@ -1,5 +1,10 @@
+#perguntas-frequentes {
+    background-color: #e3f2fd;
+    padding: 5rem 0;
+}
+
 h2 {
-    margin-top: 10rem;
+    margin-top: 3rem;
     font-size: 3rem;
     text-align: center;
 }
@@ -12,28 +17,57 @@ h2 {
 
 .container-perguntas-frequentes {
     display: flex;
-    padding: 1rem;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
+    padding: 1rem;
 }
 
-.perguntas-frequentes {
-    padding: 1.5rem;
+.faq-item {
+    width: 100%;
+    max-width: 800px;
+}
+
+.pergunta {
     background-color: #fff;
+    padding: 1.5rem;
     border-radius: 1rem;
-    width: 80%;
-    margin-bottom: 2rem;
     font-size: 1.7rem;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.resposta {
+    display: none;
+    background-color: #fff;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+}
+
+.faq-item.ativa .resposta {
+    display: block;
+}
+
+.faq-item.ativa .seta {
+    transform: rotate(180deg);
+}
+
+.seta {
+    width: 24px;
+    transition: transform 0.3s;
 }
 
 .container-ainda-duvidas {
+    margin: 3rem auto;
     padding: 2rem;
     background-color: #bfeaff;
     border-radius: 1rem;
-    width: 80%;
+    width: 61%;
 }
 
 .container-ainda-duvidas h3 {
