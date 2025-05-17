@@ -110,7 +110,7 @@ button:nth-of-type(2) {
 .container-inicio-cima button:hover {
     transform: scale(1.05);
     transition: ease .2s;
-    
+
 }
 
 .container-inicio-baixo h2,
@@ -230,13 +230,19 @@ button:nth-of-type(2) {
     transition: ease .5s;
 }
 
-.s-section h2, .t-section h2, .q-section h2 {
+.s-section h2,
+.t-section h2,
+.q-section h2,
+.quinta-section h2 {
     text-align: center;
     font-size: 3rem;
     margin: 5% 0 0.3% 0;
 }
 
-.s-section p, .subtitulo-t-section, .q-section p {
+.s-section p,
+.subtitulo-t-section,
+.q-section p,
+.quinta-section p {
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: 3%;
@@ -325,7 +331,9 @@ button:nth-of-type(2) {
     font-size: 1.6rem;
 }
 
-.icone-github, .icone-linkedin, .icone-email {
+.icone-github,
+.icone-linkedin,
+.icone-email {
     width: 3rem;
     height: 3rem;
 }
@@ -337,7 +345,8 @@ button:nth-of-type(2) {
     border-top-left-radius: 1rem;
 }
 
-.header-demo-bot h3, .header-demo-bot span {
+.header-demo-bot h3,
+.header-demo-bot span {
     color: #fff;
 }
 
@@ -374,14 +383,17 @@ button:nth-of-type(2) {
     color: #fff;
 }
 
-.p-msg-bot, .t-msg-bot, .quinta-msg-bot {
+.p-msg-bot,
+.t-msg-bot,
+.quinta-msg-bot {
     background-color: #00aaff;
     padding: 1rem;
     border-radius: 1rem 1rem 1rem .2rem;
     width: 70%;
 }
 
-.s-msg-bot, .q-msg-bot {
+.s-msg-bot,
+.q-msg-bot {
     background-color: #00000071;
     padding: 1rem;
     border-radius: 1rem 1rem .2rem 1rem;
@@ -463,4 +475,51 @@ button:nth-of-type(2) {
     border-radius: .7rem;
     background-color: #00aaff;
     font-weight: bold;
+}
+
+.contato {
+    display: flex;
+    padding: 1rem;
+}
+
+.area-entrar-contato {
+    flex: 1;
+    background-color: #bfeaff;
+    border-radius: .7rem;
+    padding: 2rem;
+}
+
+.area-entrar-contato h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.area-entrar-contato input,
+textarea {
+    border-radius: .5rem;
+    width: 100%;
+    border: 1px solid #afb1b4;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.area-entrar-contato button {
+    padding: .8rem;
+    width: 100%;
+    border-radius: .5rem;
+    border: 1px solid #b7b7b7;
+    background-color: #00aaff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+    height: 10rem;
+}
+
+.nome, .email, .assunto, .mensagem {
+    font-size: 1.5rem;
+    color: #494b4d;
 }
