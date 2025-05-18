@@ -13,101 +13,106 @@
     <header>
         <nav>
             <div>
-                <img class="icone-header" src="icons/inicio/icone-header.png" alt="Icone menu de navegação" />
+                <img class="icone-header" src="icons/inicio/icone-header.png" alt="Ícone do menu de navegação" />
                 <h1>TeleConsulta LKR Bot</h1>
             </div>
             <ul>
-                <li>
-                    <a href="index.html" class="link-menu-ativado">Início</a>
-                    <a href="integrantes.html">Integrantes</a>
-                    <a href="demo_bot.html">Demo do Bot</a>
-                    <a href="faq.html">FAQ</a>
-                    <a href="contato.html">Contato</a>
-                </li>
+                <li><a href="index.html" class="link-menu-ativado">Início</a></li>
+                <li><a href="integrantes.html">Integrantes</a></li>
+                <li><a href="demo_bot.html">Demo do Bot</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <section>
-        <div class="container-inicio-cima">
-            <h2>Reduzindo Faltas em Teleconsultas</h2>
-            <p>
-                Nossa solução de chatbot ajuda pacientes do HC a não perderem suas
-                consultas virtuais, melhorando o acesso à saúde e otimizando recursos
-                hospitalares.
-            </p>
-            <button onclick="irParaDemoBot()">Ver Demonstração</button>
-            <button onclick="irParaContato()">Entre em Contato</button>
-        </div>
-        <div class="container-inicio-baixo">
-            <h2>O Problema</h2>
-            <div class="container-caixinhas-problema">
-                <div>
-                    <img class="icone-x" src="icons/inicio/icone-x.png" alt="Icone de X" />
-                    <h3>Alto Índice de Faltas</h3>
-                    <p>
-                        Muitos pacientes não comparecem às teleconsultas agendadas,
-                        desperdiçando recursos valiosos do hospital.
-                    </p>
-                </div>
-                <div>
-                    <img class="icone-relogio" src="icons/inicio/icone-relogio.png" alt="Icone relógio" />
-                    <h3>Dificuldades Técnicas</h3>
-                    <p>
-                        Pacientes enfrentam problemas para acessar e utilizar as
-                        plataformas de teleconsulta do HC.
-                    </p>
-                </div>
-                <div>
-                    <img class="icone-suporte" src="icons/inicio/icone-pergunta.png" alt="Icone Suporte" />
-                    <h3>Falta de Suporte</h3>
-                    <p>
-                        Ausência de um canal de ajuda imediata para resolver dúvidas sobre
-                        o acesso às teleconsultas.
-                    </p>
+    <main>
+        <section aria-labelledby="reduzindo-faltas">
+            <div class="container-inicio-cima">
+                <h2 id="reduzindo-faltas">Reduzindo Faltas em Teleconsultas</h2>
+                <p>
+                    Nossa solução de chatbot ajuda pacientes do HC a não perderem suas
+                    consultas virtuais, melhorando o acesso à saúde e otimizando recursos
+                    hospitalares.
+                </p>
+                <button onclick="irParaDemoBot()" aria-label="Ver demonstração do bot">Ver Demonstração</button>
+                <button onclick="irParaContato()" aria-label="Ir para página de contato">Entre em Contato</button>
+            </div>
+        </section>
+
+        <section aria-labelledby="problema">
+            <div class="container-inicio-baixo">
+                <h2 id="problema">O Problema</h2>
+                <div class="container-caixinhas-problema">
+                    <article>
+                        <img class="icone-x" src="icons/inicio/icone-x.png" alt="Ícone de X representando problema" />
+                        <h3>Alto Índice de Faltas</h3>
+                        <p>
+                            Muitos pacientes não comparecem às teleconsultas agendadas,
+                            desperdiçando recursos valiosos do hospital.
+                        </p>
+                    </article>
+                    <article>
+                        <img class="icone-relogio" src="icons/inicio/icone-relogio.png" alt="Ícone de relógio representando dificuldade" />
+                        <h3>Dificuldades Técnicas</h3>
+                        <p>
+                            Pacientes enfrentam problemas para acessar e utilizar as
+                            plataformas de teleconsulta do HC.
+                        </p>
+                    </article>
+                    <article>
+                        <img class="icone-suporte" src="icons/inicio/icone-pergunta.png" alt="Ícone de interrogação representando suporte" />
+                        <h3>Falta de Suporte</h3>
+                        <p>
+                            Ausência de um canal de ajuda imediata para resolver dúvidas sobre
+                            o acesso às teleconsultas.
+                        </p>
+                    </article>
                 </div>
             </div>
-        </div>
-        <div class="terceiro-container">
-            <h2>Nossa Solução</h2>
-            <div class="dentro-container">
-                <div class="dentro-container-esquerda">
-                    <h3>Chatbot Assistente para Teleconsultas</h3>
-                    <p>
-                        Desenvolvemos um chatbot inteligente que guia os pacientes do HC
-                        através do processo de acesso às teleconsultas, oferecendo:
-                    </p>
-                    <div class="check-informacoes">
-                        <div>
-                            <img src="icons/inicio/check-circle.png" alt="Icone feito" />
-                            <p>Instruções passo a passo para acessar a plataforma.</p>
-                        </div>
+        </section>
 
-                        <div>
-                            <img src="icons/inicio/check-circle.png" alt="Icone feito" />
-                            <p>Lembretes automáticos antes da consulta.</p>
-                        </div>
-
-                        <div>
-                            <img src="icons/inicio/check-circle.png" alt="Icone feito" />
-                            <p>Solução de problemas técnicos comuns.</p>
-                        </div>
-
-                        <div>
-                            <img src="icons/inicio/check-circle.png" alt="Icone feito" />
-                            <p>Opção de contato com suporte humano quando necessário.</p>
+        <section aria-labelledby="solucao">
+            <div class="terceiro-container">
+                <h2 id="solucao">Nossa Solução</h2>
+                <div class="dentro-container">
+                    <div class="dentro-container-esquerda">
+                        <h3>Chatbot Assistente para Teleconsultas</h3>
+                        <p>
+                            Desenvolvemos um chatbot inteligente que guia os pacientes do HC
+                            através do processo de acesso às teleconsultas, oferecendo:
+                        </p>
+                        <div class="check-informacoes">
+                            <div>
+                                <img src="icons/inicio/check-circle.png" alt="Ícone de verificação: instruções passo a passo" />
+                                <p>Instruções passo a passo para acessar a plataforma.</p>
+                            </div>
+                            <div>
+                                <img src="icons/inicio/check-circle.png" alt="Ícone de verificação: lembretes automáticos" />
+                                <p>Lembretes automáticos antes da consulta.</p>
+                            </div>
+                            <div>
+                                <img src="icons/inicio/check-circle.png" alt="Ícone de verificação: solução de problemas" />
+                                <p>Solução de problemas técnicos comuns.</p>
+                            </div>
+                            <div>
+                                <img src="icons/inicio/check-circle.png" alt="Ícone de verificação: suporte humano" />
+                                <p>Opção de contato com suporte humano quando necessário.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="dentro-container-direita"><iframe src="demo_bot.html" width="100%" height="100%"
-                        frameborder="0"></iframe></div>
+                    <div class="dentro-container-direita">
+                        <iframe src="demo_bot.html" width="100%" height="100%" frameborder="0" title="Demonstração do Bot de Teleconsulta"></iframe>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
+
         <div class="btn-experimentar-bot">
-            <button onclick="irParaDemoBot()">Veja o Nosso Bot</button>
+            <button onclick="irParaDemoBot()" aria-label="Veja o nosso bot em funcionamento">Veja o Nosso Bot</button>
         </div>
-    </section>
+    </main>
 
     <footer>
         <p>Copyright &copy; 2025 by Time Nexus LKR | Todos os direitos reservados</p>
