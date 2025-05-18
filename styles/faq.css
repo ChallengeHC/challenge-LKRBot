@@ -87,4 +87,5 @@ h2 {
     border-radius: .7rem;
     background-color: #00aaff;
     font-weight: bold;
+    cursor: pointer;
 }
