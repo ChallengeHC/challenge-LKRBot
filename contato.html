@@ -28,44 +28,46 @@
     </nav>
   </header>
 
-  <section class="quinta-section">
-    <h2>Entre em contato</h2>
-    <p>Estamos à disposição para esclarecer dúvidas e discutir como nossa solução pode ajudar o HC</p>
-    <div class="contato">
-      <div class="area-entrar-contato">
-        <h3>Envie uma Mensagem</h3>
+  <main>
+    <section class="quinta-section">
+      <h2>Entre em contato</h2>
+      <p>Estamos à disposição para esclarecer dúvidas e discutir como nossa solução pode ajudar o HC</p>
+      <div class="contato">
+        <div class="area-entrar-contato">
+          <h3>Envie uma Mensagem</h3>
 
-        <form onsubmit="return validarFormulario()">
-          <div class="campo">
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" onblur="validarNome()">
-            <small class="erro" id="erro-nome"></small>
-          </div>
+          <form onsubmit="return validarFormulario()">
+            <div class="campo">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" onblur="validarNome()">
+              <small class="erro" id="erro-nome"></small>
+            </div>
 
-          <div class="campo">
-            <label for="email">E-mail</label>
-            <input type="email" id="email" onblur="validarEmail()">
-            <small class="erro" id="erro-email"></small>
-          </div>
+            <div class="campo">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" onblur="validarEmail()">
+              <small class="erro" id="erro-email"></small>
+            </div>
 
-          <div class="campo">
-            <label for="assunto">Assunto</label>
-            <input type="text" id="assunto" onblur="validarAssunto()">
-            <small class="erro" id="erro-assunto"></small>
-          </div>
+            <div class="campo">
+              <label for="assunto">Assunto</label>
+              <input type="text" id="assunto" onblur="validarAssunto()">
+              <small class="erro" id="erro-assunto"></small>
+            </div>
 
-          <div class="campo">
-            <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" onblur="validarMensagem()"></textarea>
-            <small class="erro" id="erro-mensagem"></small>
-          </div>
+            <div class="campo">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" onblur="validarMensagem()"></textarea>
+              <small class="erro" id="erro-mensagem"></small>
+            </div>
 
-          <button type="submit">Enviar Mensagem</button>
-        </form>
+            <button type="submit">Enviar Mensagem</button>
+          </form>
 
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <footer>
     <p>Copyright &copy; 2025 by Time Nexus LKR | Todos os direitos reservados</p>
