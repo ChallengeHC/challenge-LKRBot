@@ -2,111 +2,119 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/padronizacao.css">
-    <link rel="stylesheet" href="styles/faq.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/padronizacao.css" />
+    <link rel="stylesheet" href="styles/faq.css" />
     <title>FAQ</title>
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav aria-label="Menu principal">
             <div>
-                <img class="icone-header" src="icons/inicio/icone-header.png" alt="Icone menu de navegação" />
+                <img class="icone-header" src="icons/inicio/icone-header.png" alt="Ícone do menu de navegação" />
                 <h1>TeleConsulta LKR Bot</h1>
             </div>
             <ul>
-                <li>
-                    <a href="index.html">Início</a>
-                    <a href="integrantes.html">Integrantes</a>
-                    <a href="demo_bot.html">Demo do Bot</a>
-                    <a href="faq.html" class="link-menu-ativado">FAQ</a>
-                    <a href="contato.html">Contato</a>
-                </li>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="integrantes.html">Integrantes</a></li>
+                <li><a href="demo_bot.html">Demo do Bot</a></li>
+                <li><a href="faq.html" class="link-menu-ativado">FAQ</a></li>
+                <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="perguntas-frequentes">
-        <h2>Perguntas Frequentes</h2>
-        <p class="subtitulo-quinta-section">Respostas para as dúvidas mais comuns sobre nossa solução</p>
+    <main>
+        <section id="perguntas-frequentes">
+            <h2>Perguntas Frequentes</h2>
+            <p class="subtitulo-quinta-section">
+                Respostas para as dúvidas mais comuns sobre nossa solução
+            </p>
 
-        <div class="container-perguntas-frequentes">
-            <div class="faq-item">
-                <div class="pergunta">
-                    Como o chatbot ajuda a reduzir faltas nas teleconsultas?
-                    <img src="icons/perguntas-frequentes/seta-para-baixo.png" class="seta" alt="Ícone de seta">
+            <div class="container-perguntas-frequentes">
+
+                <div class="faq-item">
+                    <div class="pergunta" tabindex="0" role="button" aria-expanded="false">
+                        Como o chatbot ajuda a reduzir faltas nas teleconsultas?
+                        <img src="icons/perguntas-frequentes/seta-para-baixo.png" class="seta" alt=""
+                            aria-hidden="true" />
+                    </div>
+                    <div class="resposta">
+                        O chatbot atua tirando dúvidas frequentes dos pacientes sobre a consulta, como horário, local,
+                        preparação necessária e uso da plataforma. Com essas informações mais acessíveis, o paciente se
+                        sente mais seguro e preparado, o que reduz as chances de faltar.
+                    </div>
                 </div>
-                <div class="resposta">
-                    O chatbot atua tirando dúvidas frequentes dos pacientes sobre a consulta, como horário, local,
-                    preparação necessária e uso da plataforma. Com essas informações mais acessíveis, o paciente se
-                    sente mais seguro e preparado, o que reduz as chances de faltar.
+
+                <div class="faq-item">
+                    <div class="pergunta" tabindex="0" role="button" aria-expanded="false">
+                        O chatbot funciona em qualquer dispositivo?
+                        <img src="icons/perguntas-frequentes/seta-para-baixo.png" class="seta" alt=""
+                            aria-hidden="true" />
+                    </div>
+                    <div class="resposta">
+                        Sim, o chatbot é compatível com celulares, tablets e computadores. Ele será desenvolvido para
+                        atender
+                        a todos os breakpoints e requisitos de responsividade solicitados pelo HC, garantindo uma
+                        experiência
+                        fluida e acessível em qualquer tipo de dispositivo.
+                    </div>
                 </div>
+
+                <div class="faq-item">
+                    <div class="pergunta" tabindex="0" role="button" aria-expanded="false">
+                        Como o chatbot lida com os pacientes idosos ou com pouca familiaridade tecnológica?
+                        <img src="icons/perguntas-frequentes/seta-para-baixo.png" class="seta" alt=""
+                            aria-hidden="true" />
+                    </div>
+                    <div class="resposta">
+                        A interface do chatbot é simples, intuitiva e acessível, pensada especialmente para atender
+                        usuários
+                        de todos os perfis, incluindo idosos e pessoas com pouca familiaridade tecnológica.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="pergunta" tabindex="0" role="button" aria-expanded="false">
+                        O chatbot substitui o contato humano no atendimento?
+                        <img src="icons/perguntas-frequentes/seta-para-baixo.png" class="seta" alt=""
+                            aria-hidden="true" />
+                    </div>
+                    <div class="resposta">
+                        O chatbot complementa o atendimento humano, cuidando das tarefas repetitivas e simples para
+                        agilizar
+                        o processo. Quando algo precisa de atenção especializada, ele encaminha para um profissional.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="pergunta" tabindex="0" role="button" aria-expanded="false">
+                        Como são tratados os dados dos pacientes pelo chatbot?
+                        <img src="icons/perguntas-frequentes/seta-para-baixo.png" class="seta" alt=""
+                            aria-hidden="true" />
+                    </div>
+                    <div class="resposta">
+                        Todos os dados são protegidos para garantir a segurança e a privacidade dos pacientes. Eles são
+                        usados
+                        apenas para fins necessários, evitando qualquer tipo de acesso não autorizado.
+                    </div>
+                </div>
+
+                <div class="container-ainda-duvidas">
+                    <h3>Ainda tem dúvidas?</h3>
+                    <p>Se você não encontrou a resposta que procura, entre em contato conosco. Estamos à disposição para
+                        esclarecer qualquer dúvida sobre nossa solução.</p>
+                    <button onclick="irParaContato()">Entrar em contato</button>
+                </div>
+
             </div>
-
-            <div class="faq-item">
-                <div class="pergunta">
-                    O chatbot funciona em qualquer dispositivo
-                    <img src="icons/perguntas-frequentes/seta-para-baixo.png" class="seta" alt="Ícone de seta">
-                </div>
-                <div class="resposta">
-                    Sim, o chatbot é compatível com celulares, tablets e computadores. Ele será desenvolvido para
-                    atender a todos os breakpoints e requisitos de responsividade solicitados pelo HC, garantindo uma
-                    experiência fluida e acessível em qualquer tipo de dispositivo, independentemente do tamanho da
-                    tela.
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <div class="pergunta">
-                    Como o chatbot lida com os pacientes idosos ou com pouca familiaridade tecnológica
-                    <img src="icons/perguntas-frequentes/seta-para-baixo.png" class="seta" alt="Ícone de seta">
-                </div>
-                <div class="resposta">
-                    A interface do chatbot é simples, intuitiva e acessível, pensada especialmente para atender usuários
-                    de todos os perfis, incluindo idosos e pessoas com pouca familiaridade tecnológica. A navegação será
-                    clara, com linguagem direta e orientações visuais que facilitam o entendimento. Além disso, a
-                    solução será testada para garantir acessibilidade e usabilidade em diversos contextos.
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <div class="pergunta">
-                    O chatbot substitui o contato humano no atendimento?
-                    <img src="icons/perguntas-frequentes/seta-para-baixo.png" class="seta" alt="Ícone de seta">
-                </div>
-                <div class="resposta">
-                    O chatbot complementa o atendimento humano, cuidando das tarefas repetitivas e simples para agilizar
-                    o processo. Quando algo precisa de uma atenção mais especializada, ele encaminha para o
-                    profissional, garantindo que o paciente receba o suporte adequado sempre que necessário.
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <div class="pergunta">
-                    Como são tratados os dados dos pacientes pelo chatbot?
-                    <img src="icons/perguntas-frequentes/seta-para-baixo.png" class="seta" alt="Ícone de seta">
-                </div>
-                <div class="resposta">
-                    Todos os dados coletados pelo sistema são protegidos para garantir a segurança e a privacidade dos pacientes, Isso significa que as informações dos pacientes serão utilizadas de forma responsável e só para os fins necessários, evitando qualquer tipo de acesso não autorizado. Dessa forma, garantimos que os dados estejam sempre seguros e que os pacientes possam confiar no sistema durante todo o atendimento.
-                </div>
-            </div>
-
-            <div class="container-ainda-duvidas">
-                <h3>Ainda tem dúvidas</h3>
-                <p>Se você não encontrou a resposta que procura, entre em contato conosco. Estamos à disposição para
-                    esclarecer qualquer dúvida sobre nossa solução.</p>
-                <button onclick="irParaContato()">Entrar em contato</button>
-            </div>
-        </div>
-
-
-    </section>
-
+        </section>
+    </main>
 
     <footer>
-        <p>Copyright &copy; 2025 by Time Nexus LKR | Todos os direitos reservados</p>
+        <p>&copy; 2025 Time Nexus LKR | Todos os direitos reservados</p>
     </footer>
 
     <script src="funcionalidades/faq.js"></script>
