@@ -4,7 +4,7 @@ h2 {
     text-align: center;
 }
 
-.s-section p {
+main p {
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: 4rem;
@@ -86,6 +86,7 @@ h2 {
     margin-top: 4rem;
     border-radius: 1rem;
     padding: 3rem 3rem 1rem 3rem;
+    box-shadow: 0 .4rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .nossa-missao h3 {
