@@ -70,11 +70,16 @@ h2 {
 
 .s-msg-bot,
 .q-msg-bot {
-    background-color: #00000071;
+    background-color: rgba(0, 0, 0, 0.443); 
     padding: 1rem;
     border-radius: 1rem 1rem .2rem 1rem;
-    margin: 3rem 0 3rem 35rem;
     width: 60%;
+}
+
+.linha-msg {
+    display: flex;
+    justify-content: end;
+    margin: 2rem 0;
 }
 
 .enviar-msg-demo-bot {
@@ -86,7 +91,6 @@ h2 {
 }
 
 .escrever-msg {
-    border: 1px solid black;
     background-color: #fff;
     flex: 14;
     padding: 1rem;
@@ -110,4 +114,20 @@ h2 {
     border-bottom-right-radius: 1rem;
     border-top: .1rem solid #d1d1d1;
     border-bottom: .1rem solid #d1d1d1;
+}
+
+@media (max-width: 850px) {
+    footer {
+        margin-top: 12.7rem;
+    }
+
+    main {
+        margin: 0 10%;
+    }
+}
+
+@media (max-width: 700px) {
+    footer {
+        margin-top: 18.7rem;
+    }
 }
