@@ -1,5 +1,5 @@
 .container-inicio-cima {
-    margin: 7.5% 0 6% 0;
+    margin: 10rem 0 6rem 0;
     border-radius: 1rem;
     padding: 5rem 5rem 7rem 5rem;
     background-color: #0da1e5;
@@ -160,4 +160,41 @@ button:nth-of-type(2) {
     transform: translateY(-5%);
     transition: ease .5s;
     cursor: pointer;
+}
+
+@media (max-width: 530px) {
+
+    .container-inicio-cima h2,
+    .container-inicio-cima p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .container-inicio-cima button {
+        width: 100%;
+        margin: .5rem 0;
+    }
+
+    .container-caixinhas-problema {
+        flex-direction: column;
+    }
+
+    .container-caixinhas-problema article {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .dentro-container {
+        flex-direction: column;
+        margin-bottom: 7rem;
+    }
+
+    .dentro-container-esquerda,
+    .dentro-container-direita {
+        width: 100%;
+    }
+
+    .dentro-container-esquerda {
+        margin-bottom: 3rem;
+    }
 }
