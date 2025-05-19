@@ -16,15 +16,17 @@
         <img class="icone-header" src="icons/inicio/icone-header.png" alt="Icone menu de navegação" />
         <h1>TeleConsulta LKR Bot</h1>
       </div>
-      <ul>
-        <li>
-          <a href="index.html">Início</a>
-          <a href="integrantes.html">Integrantes</a>
-          <a href="demo_bot.html">Demo do Bot</a>
-          <a href="faq.html">FAQ</a>
-          <a href="contato.html" class="link-menu-ativado">Contato</a>
-        </li>
+      <ul id="menu-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="integrantes.html">Integrantes</a></li>
+        <li><a href="demo_bot.html">Demo do Bot</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contato.html" class="link-menu-ativado">Contato</a></li>
       </ul>
+
+      <div onclick="abrirMenu()" class="menu-hamburguer">
+        <img src="icons/inicio/menu-header.png" alt="Menu de links">
+      </div>
     </nav>
   </header>
 
@@ -74,6 +76,7 @@
   </footer>
 
   <script src="js/contato.js"></script>
+  <script src="js/padronizacao.js"></script>
 </body>
 
 </html>
