@@ -66,6 +66,11 @@ li a:hover {
     transition: .08s ease;
 }
 
+.menu-hamburguer {
+    display: none;
+    text-align: center;
+}
+
 .link-menu-ativado {
     color: #363738;
     border-bottom: .3rem solid #0da1e5;
@@ -85,4 +90,47 @@ footer {
 footer p {
     color: #fff;
     font-size: 1.7rem;
+}
+
+@media (max-width: 600px) {
+    #menu-links {
+        display: none;
+        flex-direction: column;
+        background-color: #fff;
+        padding: 1rem;
+        position: absolute;
+        top: 7.9rem;
+        right: .2rem;
+        z-index: 1;
+        width: 100%;
+        text-align: center;
+        border-bottom: 2px solid #bebebe;
+    }
+
+    #menu-links.mostrar {
+        display: flex;
+    }
+
+    #menu-links li {
+        margin-bottom: 1rem;
+    }
+
+    #menu-links li a {
+        margin-left: 0;
+    }
+
+    header nav div {
+        justify-content: start;
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    .menu-hamburguer {
+        display: block;
+        width: 20%;
+    }
+
+    main {
+        margin: 20% 3%;
+    }
 }
