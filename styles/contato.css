@@ -70,3 +70,15 @@ textarea {
     font-size: 1.5rem;
     color: #494b4d;
 }
+
+@media (max-width: 850px) {
+    footer {
+        margin-top: 10rem;
+    }
+}
+
+@media (max-width: 700px) {
+    footer {
+        margin-top: 13rem;
+    }
+}
