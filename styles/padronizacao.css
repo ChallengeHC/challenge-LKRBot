@@ -15,7 +15,7 @@ body {
 
 header {
     background-color: #fff;
-    border-bottom: .3rem solid #32325d40;
+    border-bottom: 3px solid #32325d40;
     padding: 2.5rem;
     position: fixed;
     top: 0;
@@ -35,7 +35,7 @@ nav {
 nav div {
     display: flex;
     justify-content: space-between;
-    width: 18%;
+    width: auto;
 }
 
 nav div h1 {
@@ -62,7 +62,7 @@ nav ul li a {
 
 li a:hover {
     color: #363738;
-    border-bottom: .3rem solid #0da1e5;
+    border-bottom: 3px solid #0da1e5;
     transition: .08s ease;
 }
 
@@ -73,7 +73,7 @@ li a:hover {
 
 .link-menu-ativado {
     color: #363738;
-    border-bottom: .3rem solid #0da1e5;
+    border-bottom: 3px solid #0da1e5;
 }
 
 section {
@@ -93,18 +93,22 @@ footer p {
 }
 
 @media (max-width: 600px) {
+    html {
+        font-size: 48%;
+    }
+    
     #menu-links {
         display: none;
         flex-direction: column;
         background-color: #fff;
         padding: 1rem;
         position: absolute;
-        top: 7.9rem;
-        right: .2rem;
+        top: 103%;
+        right: 0;
         z-index: 1;
         width: 100%;
         text-align: center;
-        border-bottom: 2px solid #bebebe;
+        border-bottom: 3px solid #bebebe;
     }
 
     #menu-links.mostrar {
@@ -130,4 +134,37 @@ footer p {
         width: 20%;
     }
 
+}
+
+@media (min-width: 601px) {
+    html {
+        font-size: 47%;
+    }
+    nav div img {
+        height: 3rem;
+    }
+    
+
+    nav ul li a {
+        margin-left: 1.2rem;
+    }
+
+}
+
+@media (min-width: 700px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (min-width: 850px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 62.5%;
+    }
 }
