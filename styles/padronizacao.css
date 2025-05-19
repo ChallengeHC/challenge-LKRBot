@@ -155,16 +155,28 @@ footer p {
     html {
         font-size: 50%;
     }
+
+    nav ul li a {
+        margin-left: 2.5rem;
+    }
 }
 
 @media (min-width: 850px) {
     html {
         font-size: 55%;
     }
+
+    nav ul li a {
+        margin-left: 4rem;
+    }
 }
 
 @media (min-width: 1200px) {
     html {
         font-size: 62.5%;
+    }
+
+    nav ul li a {
+        margin-left: 6rem;
     }
 }
