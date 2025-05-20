@@ -56,3 +56,9 @@ Abaixo está a estrutura atual do projeto:
 Acesse o repositório completo do projeto no GitHub:
 
 👉 [https://github.com/ChallengeHC/challenge-LKRBot](https://github.com/ChallengeHC/challenge-LKRBot)
+
+---
+
+### 💡 Observações Finais
+
+Este projeto tem caráter educacional e busca apresentar uma proposta de solução digital para um problema real apresentado pelo Hospital das Clínicas. A documentação e interface visual foi totalmente pensada para facilitar a utilização do usuário.
