@@ -39,3 +39,15 @@ Abaixo está a estrutura atual do projeto:
 └── integrantes.html          # Página sobre os integrantes
 ```
 
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5**: estruturação do conteúdo.
+- **CSS3**: estilização e layout visual.
+- **JavaScript**: interatividade e lógica de funcionamento.
+
+## 👨‍💻 Integrantes da Equipe
+
+- Lucas  
+- Riquelme  
+- Kaique  
+
