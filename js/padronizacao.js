@@ -18,21 +18,21 @@ function abrirMenu() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  const botoes = document.querySelectorAll('button[data-href]');
+    const botoes = document.querySelectorAll('button[data-href]');
 
-  botoes.forEach(botao => {
-    botao.addEventListener('click', event => {
-      event.preventDefault(); // Impede a navegação instantânea
+    botoes.forEach(botao => {
+        botao.addEventListener('click', event => {
+            event.preventDefault();
 
-      const destino = botao.getAttribute('data-href');
+            const destino = botao.getAttribute('data-href');
 
-      if (destino) {
-        document.body.classList.add('fade-out');
+            if (destino) {
+                document.body.classList.add('fade-out');
 
-        setTimeout(() => {
-          window.location.href = destino;
-        }, 100); // Tempo da animação (em ms)
-      }
+                setTimeout(() => {
+                    window.location.href = destino;
+                }, 100);
+            }
+        });
     });
-  });
 });
