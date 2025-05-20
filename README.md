@@ -51,3 +51,8 @@ Abaixo está a estrutura atual do projeto:
 - Riquelme  
 - Kaique  
 
+## 🔗 Repositório no GitHub
+
+Acesse o repositório completo do projeto no GitHub:
+
+👉 [https://github.com/ChallengeHC/challenge-LKRBot](https://github.com/ChallengeHC/challenge-LKRBot)
