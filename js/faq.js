@@ -3,7 +3,3 @@ document.querySelectorAll('.faq-item').forEach(item => {
         item.classList.toggle('ativa');
     });
 });
-
-function irParaContato() {
-    window.location.href = "contato.html";
-}

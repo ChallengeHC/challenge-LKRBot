@@ -12,8 +12,27 @@ document.querySelectorAll('#menu-links a.link-suave').forEach(link => {
     });
 });
 
-
 function abrirMenu() {
     const menuLinks = document.getElementById('menu-links');
     menuLinks.classList.toggle('mostrar');
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const botoes = document.querySelectorAll('button[data-href]');
+
+  botoes.forEach(botao => {
+    botao.addEventListener('click', event => {
+      event.preventDefault(); // Impede a navegação instantânea
+
+      const destino = botao.getAttribute('data-href');
+
+      if (destino) {
+        document.body.classList.add('fade-out');
+
+        setTimeout(() => {
+          window.location.href = destino;
+        }, 100); // Tempo da animação (em ms)
+      }
+    });
+  });
+});
