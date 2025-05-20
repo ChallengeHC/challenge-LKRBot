@@ -187,3 +187,17 @@ footer p {
         margin-left: 6rem;
     }
 }
+
+@media (min-width: 1700px) {
+    html {
+        font-size: 87%;
+    }
+
+    nav ul li a {
+        margin-left: 9rem;
+    }
+
+    footer {
+        margin-top: 22rem;
+    }
+}
