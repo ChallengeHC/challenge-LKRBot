@@ -11,6 +11,12 @@ html {
 
 body {
     background-color: #e2f1ff;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+body.fade-out {
+    opacity: 0;
 }
 
 header {
@@ -96,7 +102,7 @@ footer p {
     html {
         font-size: 48%;
     }
-    
+
     #menu-links {
         display: none;
         flex-direction: column;
@@ -140,10 +146,11 @@ footer p {
     html {
         font-size: 47%;
     }
+
     nav div img {
         height: 3rem;
     }
-    
+
 
     nav ul li a {
         margin-left: 1.2rem;
